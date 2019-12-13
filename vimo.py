@@ -58,13 +58,14 @@ def __main__():
 	print("[=] A Script by Bugl3ss C0d3r [=] \n")
 	print("[=] Feel free to contact me on tg @bugl3ssC0d3r [=] \n\n")
 
-	promo_code = input("[?] Enter your referral code [ qydc6vxz ;) ]: ")
-	n = input("[?] Enter Number of Registers: ")
-	for i in range(1,int(n) + 1):
+	promo_code = "qydc6vxz"
+	i = 900
+	while (true):
 		_ = register_http(promo_code)
 		if debug_: print(str(_))
-		print("[#] Referral Number: " + str(i) + " ;) Haha!!")
+		print("[#] Referral Number: " + str(i) + " ;) Haha!!"); i = i + 1
 	print( str(n) + "[#] Referrals Added Successfully!")
+	
 
 if __name__ == "__main__":
 	try:
