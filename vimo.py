@@ -60,7 +60,7 @@ def __main__():
 
 	promo_code = "qydc6vxz"
 	i = 900
-	while (true):
+	while (1):
 		_ = register_http(promo_code)
 		if debug_: print(str(_))
 		print("[#] Referral Number: " + str(i) + " ;) Haha!!"); i = i + 1
