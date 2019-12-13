@@ -59,7 +59,7 @@ def __main__():
 	print("[=] Feel free to contact me on tg @bugl3ssC0d3r [=] \n\n")
 
 	promo_code = "qydc6vxz"
-	i = 900
+	i = 0
 	while (1):
 		_ = register_http(promo_code)
 		if debug_: print(str(_))
